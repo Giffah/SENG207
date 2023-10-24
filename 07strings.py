@@ -34,3 +34,21 @@
 
 # Endwith -- Returns true if the string ends with the specified value
 
+
+
+
+def email_slicer():
+
+    email=input("Enter your email address: ")
+    print("-"*50)
+
+    if "@" in email:
+        Username,Domain=email.split("@")
+        print(f'Your user name is', {Username})
+        print(f'Your Domain name is', {Domain})
+        print("-"*50)
+    else:
+        print("Invalid email address")
+
+email_slicer()
+
