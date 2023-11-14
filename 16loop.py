@@ -1,6 +1,12 @@
 # Loop
 # For loop
 
+x =[10, 2,3,4]
+for i in x:
+    if i%2 != 0:
+        print(i)
+
+
 # While loop
 
 # Loop through List
