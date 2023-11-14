@@ -2,9 +2,12 @@
 # For loop
 
 x =[10, 2,3,4]
+sum=0
 for i in x:
-    if i%2 != 0:
-        print(i)
+    sum += i
+print(f'The sum is {sum}')
+
+    
 
 
 # While loop
