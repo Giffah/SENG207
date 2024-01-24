@@ -13,3 +13,6 @@
 # Keys -- Returns a list containing the dictionary's keys
 
 # Values -- Returns a list containing the dictionary's values
+
+X= ['']
+print(len(X))
